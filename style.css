@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 102px;
+    align-items: center;
+    margin-block:20px;
+    gap: 10px;
+}
+
+section p{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    padding: 5px 60px;
+    background: #C4C4C4;
+    height: 50px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-family: 'Modern No. 20', sans-serif;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+}
+
+footer{
+    background-color: white;
+    padding: 40px 120px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    row-gap:30px;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+    gap: 30px;
+}
+
+.top-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
+}
+
+.top-bar-sale{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.top-right-bar{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.categories-nav{
+    display: flex;
+    width: 725px;
+    justify-content: space-around;
+    font-family: 'Modern No. 20', sans-serif;
+    font-size: 18px;
+}
+
+.hero-image{
+    margin-block: 20px;
+}
+.hero-details{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    gap: 20px;
+}
+.description{
+    font-size: 18px;
+}
+.season{
+    font-family: 'Modern No. 20', sans-serif;
+    font-size: 36px;
+}
+
+.cta{
+    background-color: white;
+    display: flex;
+    align-self: center;
+    font-weight: 500;
+    padding: 20px 50px;
+    border: 2px solid;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    width: 365px;
+}
+.card>.colors{
+    color: grey;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.card>.name{
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.pre-season-collection{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-block: 75px;
+}
+.sub-hero-details{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    gap: 20px;
+}
+.sub-hero-details>p{
+    text-align: left;
+}
+.sub-hero-details>.description{
+    width: 240px;
+    font-size: 12px;
+}
+.sub-hero-details>.cta{
+    align-self: start;
+}
+.pre-season-wear{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.featured-brand{
+    position: relative;
+    margin-top: 75px;
+}
+.brand{
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+}
+.brand-name{
+    font-family: "Segoe UI";
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 8px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.footer-nav-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer-nav-title{
+    font-weight: 600;
+    font-size: 18px;
+}
+.social-media-links{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
